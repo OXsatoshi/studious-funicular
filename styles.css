@@ -6,7 +6,7 @@
 body{
     display: flex;
     flex-direction: column;
-    flex: 1;
+    
     
 }
 header {
@@ -20,11 +20,13 @@ header {
 }
 footer {
     background-color: #1F2937;
-    height: 100PX;
-    margin-top: 0;
+    padding: 36px 36px 36px 36px;
+    
 }
 main{
-    height : 200px;
+   
+    margin-bottom: 32px;
+
 }
 .links{
     font-size: 24px;
@@ -79,4 +81,101 @@ margin-bottom: 16px;}
     height: 40px;
     border-radius: 15%;
     margin-top: 24px;
+}
+.info > p:first-child {
+    margin-top: 32px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    font-family: sans-serif;
+}
+.illustration {
+    display: flex;
+    flex: 1;
+    gap:24px;
+}
+.main {
+    gap: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img{
+    margin-bottom: 32px;
+    width: 150px;
+    height:150px;
+    border-radius: 15%;
+    border: 2px solid #3882f6;
+}
+.img-text{
+    width: 150px;
+}
+.quote {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-top: 36px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.quote > p {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 300;
+    width: 800px;
+    font-family: sans-serif;
+
+}
+
+.sign {
+    display: flex;
+    justify-content: center;
+   margin-top: 36px;
+   margin-bottom: 36px;
+   padding: 36px 36px 36px 36px;
+
+
+}
+.action {
+    padding: 24px 24px 24px 24px;
+    display: flex;
+    width: 1000px;
+    justify-content: space-around;
+    background-color: #3882f6;
+    border-radius: 2%;
+    
+}
+.call {
+    color: white;
+    font-family: sans-serif;
+    font-size: 36px;
+}
+.sign-text {
+    color:  #e5e7eb;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+.action button {
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 15%;
+    margin-top: 24px;
+    border-color: white;
+
+}
+footer div {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
